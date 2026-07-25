@@ -1,0 +1,22 @@
+### Health
+GET http://127.0.0.1:8000/health
+
+### Chat - RAG
+POST http://127.0.0.1:8000/chat
+Content-Type: application/json
+
+{
+  "message": "这个 Agent 项目的产品定位是什么？"
+}
+
+### Chat - Tool
+POST http://127.0.0.1:8000/chat
+Content-Type: application/json
+
+{
+  "message": "帮我算一下 (128 + 32) / 4"
+}
+
+### Knowledge Search
+GET http://127.0.0.1:8000/knowledge/search?q=RAG 工具调用&top_k=3
+

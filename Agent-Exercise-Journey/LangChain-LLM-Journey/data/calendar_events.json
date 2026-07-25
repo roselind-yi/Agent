@@ -1,0 +1,39 @@
+{
+  "events": [
+    {
+      "id": "demo-standup",
+      "title": "Agent 项目复盘",
+      "starts_at": "2026-07-25T10:00:00",
+      "ends_at": "2026-07-25T10:30:00",
+      "location": "online"
+    },
+    {
+      "id": "demo-interview",
+      "title": "产品经理面试模拟",
+      "starts_at": "2026-07-26T15:00:00",
+      "ends_at": "2026-07-26T16:00:00",
+      "location": "online"
+    },
+    {
+      "id": "demo-review",
+      "title": "知识库答疑材料整理",
+      "starts_at": "2026-07-27T09:30:00",
+      "ends_at": "2026-07-27T10:15:00",
+      "location": "online"
+    },
+    {
+      "id": "dd169e40-3cc2-48ce-a43d-7c255e72a900",
+      "title": "用户临时安排",
+      "starts_at": "2026-07-25T17:43:10",
+      "ends_at": "2026-07-25T18:28:10",
+      "location": "online"
+    },
+    {
+      "id": "627a3964-6b90-45ca-8425-43ac5d8a489a",
+      "title": "用户临时安排",
+      "starts_at": "2026-07-25T17:43:10",
+      "ends_at": "2026-07-25T18:28:10",
+      "location": "online"
+    }
+  ]
+}

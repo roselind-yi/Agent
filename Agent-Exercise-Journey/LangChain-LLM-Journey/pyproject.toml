@@ -1,0 +1,18 @@
+[project]
+name = "langchain-llm-journey"
+version = "1.0.0"
+description = "A personal intelligent assistant Agent with RAG, tool calling, FastAPI, and Java client integration."
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+  "pydantic>=2.8.0",
+  "chromadb>=0.5.0",
+  "langchain>=0.2.0",
+  "langchain-openai>=0.1.0"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+

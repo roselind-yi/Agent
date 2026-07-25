@@ -1,0 +1,41 @@
+{
+  "documents": [
+    {
+      "id": "product-positioning",
+      "title": "Agent 产品定位",
+      "content": "本项目面向个人用户的智能助理场景，聚焦知识库问答、日程管理、生活查询三类高频需求。产品边界是把自然语言任务拆解为可执行步骤，并在需要时调用检索和工具，而不是做开放式闲聊机器人。",
+      "tags": ["product", "agent", "positioning"]
+    },
+    {
+      "id": "prompt-layering",
+      "title": "Prompt 分层模板",
+      "content": "Prompt 结构分为系统角色层、任务规划层、工具选择层、答案生成层和反思修正层。系统角色定义安全边界，任务规划层拆分意图，工具选择层决定 RAG 或外部工具，答案生成层面向用户组织结果，反思层检查是否遗漏约束。",
+      "tags": ["prompt", "agent", "planning"]
+    },
+    {
+      "id": "rag-implementation",
+      "title": "RAG 知识库能力",
+      "content": "RAG 模块使用向量检索召回与问题相关的私有知识，再将片段作为上下文交给答案生成模块。生产环境可使用 ChromaDB 持久化向量集合；本地演示环境提供无依赖 LocalVectorStore，保证面试现场可离线演示。",
+      "tags": ["rag", "chromadb", "retrieval"]
+    },
+    {
+      "id": "tool-calling",
+      "title": "工具调用链路",
+      "content": "Agent 内置计算器、日程和天气三个工具。编排器先做意图识别，再决定工具调用与知识库检索的组合，最终把工具结果、引用来源和执行 trace 一起返回，便于调试和产品体验优化。",
+      "tags": ["tools", "calculator", "calendar", "weather"]
+    },
+    {
+      "id": "competitor-insights",
+      "title": "竞品分析结论",
+      "content": "Coze 强在可视化编排和插件生态，Dify 强在企业知识库和工作流落地，LangChain 强在开发者生态和链式编排。个人智能助理的差异化机会在于任务闭环、低配置成本、透明 trace 和高频个人数据连接。",
+      "tags": ["competitor", "coze", "dify", "langchain"]
+    },
+    {
+      "id": "iteration-result",
+      "title": "Prompt 迭代结果",
+      "content": "通过增加意图分类、引用来源、工具执行 trace 和答案自检提示，知识库问答从只返回泛化描述，迭代到能说明依据、给出下一步动作并暴露执行过程的可交付状态。",
+      "tags": ["iteration", "prompt", "quality"]
+    }
+  ]
+}
+
